@@ -22,7 +22,7 @@ const CELL_PADDING_VERTICAL = 3;
 const CELL_PADDING_HORIZONTAL = 6;
 const CELL_FONT_SIZE = 12;
 
-const CODE_FONT_FAMILY = Platform.select({ ios: 'Courier New', android: 'monospace' });
+const CODE_FONT_FAMILY = Platform.select({ ios: 'Courier New', android: 'monospace', default: 'monospace' });
 
 export default StyleSheet.create<IHunkStyles>({
   diffGutter: {
