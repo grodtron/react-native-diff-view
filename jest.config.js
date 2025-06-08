@@ -14,7 +14,7 @@ module.exports = {
     },
     window: {},
   },
-  testMatch: ['<rootDir>/src/**/?(*.)+(test).(j|t)s?(x)'],
+  testMatch: ['<rootDir>/src/**/test.ts', '<rootDir>/src/**/?(*.)+(test).(j|t)s?(x)'],
   testPathIgnorePatterns: ['\\.snap$', '<rootDir>/node_modules/'],
   rootDir: '.',
   moduleFileExtensions: ['js', 'jsx', 'ts', 'tsx', 'json'],

@@ -127,6 +127,14 @@
       "rules": {
         "@typescript-eslint/camelcase": 0
       }
+    },
+    {
+      "files": ["**/*test.*", "**/*.spec.*"],
+      "env": {
+        "jest/globals": true
+      },
+      "plugins": ["jest"],
+      "extends": ["plugin:jest/recommended"]
     }
   ]
 }
